@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans|Pacifico|Permanent+Marker|Roboto|Volkhov&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Hind+Madurai|Lalezar|Nanum+Myeongjo&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Arimo|Courgette|Hind+Siliguri|Nunito|Poiret+One&display=swap");
+
+/* GLOBAL */
+:root {
+  --Snigle-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "Lobster", cursive;
+  --light-back: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.87);
+
+  --Roboto: "Roboto", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --Pacifico: "Pacifico", cursive;
+  --Permanent: "Permanent Marker", cursive;
+  --Volk: "Volkhov", serif;
+  --Luckiest: "Luckiest Guy", cursive;
+
+  --Cinzel: "Cinzel", serif;
+  --Lalezar: "Lalezar", cursive;
+  --Hind: "Hind Madurai", sans-serif;
+  --Nanum: "Nanum Myeongjo", serif;
+  --CD: "Cinzel Decorative", cursive;
+
+  --Nunito: "Nunito", sans-serif;
+  --Arimo: "Arimo", sans-serif;
+  --Anton: "Anton", sans-serif;
+  --Hind_Siliguri: "Hind Siliguri", sans-serif;
+  --Courgette: "Courgette", cursive;
+  --Alfa_Slab_One: "Alfa Slab One", cursive;
+  --Poiret_One: "Poiret One", cursive;
+}
+
+/** GLOBAL **/
+
+nav,
+.why,
+.users,
+.what,
+.intro-content,
+.banner,
+.detail {
+  font-family: var(--Arimo);
+}
+
+.full {
+  height: 100%;
+  min-height: 100vh;
+}
+
+/** GLOBAL END **/
+
+nav {
+  /* background-color: #D32F2F !important; */
+  background: white !important;
+  box-shadow: none !important;
+  overflow-x: hidden;
+}
+
+.intro-content {
+  margin: 0px 19px 10px 10px;
+  font-family: var(--Nunito);
+}
+
+.intro ul li a {
+  color: black;
+}
+
+.brand-logo {
+  color: black !important;
+}
+
+#red {
+  /* background-color: #F44336; */
+  height: 100%;
+  min-height: 85.4vh;
+}
+
+#light-red {
+  /* background-color: #f8d7da; */
+  height: 100%;
+  min-height: 85.4vh;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 818px) {
+  * {
+    overflow-x: hidden;
+    font-family: var(--Arimo);
+  }
+
+  #red {
+    /* background-color: #F44336; */
+    height: 100%;
+    min-height: 0px;
+  }
+
+  #light-red {
+    /* background-color: #f8d7da; */
+    min-height: 40.4vh;
+  }
+
+  .fa,
+  .fas {
+    padding-top: 15px;
+  }
+
+  nav .brand-logo i,
+  nav .brand-logo [class^="mdi-"],
+  nav .brand-logo [class*="mdi-"],
+  nav .brand-logo i.material-icons {
+    margin-right: 0px;
+  }
+
+  nav .sidenav-trigger {
+    color: black;
+  }
+
+  .what .box h4 {
+    padding-top: 35px;
+  }
+
+  h4 {
+    overflow-y: hidden;
+  }
+}
+
+/* Galaxy s5 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .banner {
+    margin-top: -5px !important;
+    margin-bottom: 14px !important;
+  }
+
+  #intro-wave-top {
+    margin-top: 0px !important;
+    margin-bottom: -10px;
+  }
+
+  #what-wave-top {
+    margin-bottom: 5px;
+  }
+
+  #what-wave-bottom {
+    margin-top: -10px !important;
+  }
+}
+
+/* iPhone 5 SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .banner {
+    margin-top: 0px !important;
+  }
+  #intro-wave-top {
+    margin-top: 0px !important;
+    margin-bottom: -5px;
+  }
+  #intro-wave-bottom {
+    margin-bottom: -33px;
+  }
+
+  #what-wave-top {
+    margin-bottom: 10px;
+  }
+
+  #what-wave-bottom {
+    margin-top: -10px !important;
+  }
+}
+
+/* IPAD */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .banner {
+    margin-top: -5px !important;
+    margin-bottom: 14px !important;
+  }
+
+  .intro-content {
+    padding-top: 25vh;
+  }
+
+  .fa,
+  .fas {
+    padding-top: 0.8px;
+    overflow-y: hidden;
+  }
+}
+
+/* IPAD PRO */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .intro-content {
+    padding-top: 0vh;
+  }
+
+  .fa,
+  .fas {
+    padding-top: 0px;
+    overflow-y: hidden;
+  }
+
+  .users img {
+    width: 170px !important;
+  }
+
+  #intro-wave-top {
+    margin-top: 0px !important;
+    margin-bottom: -10px;
+  }
+}
