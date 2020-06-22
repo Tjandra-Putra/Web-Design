@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans|Pacifico|Permanent+Marker|Roboto|Volkhov&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Hind+Madurai|Lalezar|Nanum+Myeongjo&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Arimo|Courgette|Hind+Siliguri|Nunito|Poiret+One&display=swap");
+
+/* GLOBAL */
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --light-back: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.87);
+
+    --Roboto: "Roboto", sans-serif;
+    --OpenSans: "Open Sans", sans-serif;
+    --Pacifico: "Pacifico", cursive;
+    --Permanent: "Permanent Marker", cursive;
+    --Volk: "Volkhov", serif;
+    --Luckiest: "Luckiest Guy", cursive;
+
+    --Cinzel: "Cinzel", serif;
+    --Lalezar: "Lalezar", cursive;
+    --Hind: "Hind Madurai", sans-serif;
+    --Nanum: "Nanum Myeongjo", serif;
+    --CD: "Cinzel Decorative", cursive;
+
+    --Nunito: "Nunito", sans-serif;
+    --Arimo: "Arimo", sans-serif;
+    --Anton: "Anton", sans-serif;
+    --Hind_Siliguri: "Hind Siliguri", sans-serif;
+    --Courgette: "Courgette", cursive;
+    --Alfa_Slab_One: "Alfa Slab One", cursive;
+    --Poiret_One: "Poiret One", cursive;
+}
+
+/* GENERAL */
+* {
+    overflow-x: hidden;
+    font-family: var(--Arimo);
+}
+
+.full {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.btn-oval {
+    border-radius: 50px;
+}
+
+.btn-rectangle {
+    border-radius: 0 !important;
+}
+
+h4 {
+    overflow-y: hidden;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.underline {
+    box-shadow: 0 1px 0 0 rgba(16, 116, 231, 0.5);
+    color: #007bff;
+}
+
+.bg-light2 {
+    background-color: #f2f2f2;
+}
+
+
+
+
+/* GENERAL ENDS */
+
+.underline:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #6C63FF !important;
+}
+
+.navbar a {
+    color: white !important;
+}

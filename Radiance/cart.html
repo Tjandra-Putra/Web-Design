@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheet Music Downloads at RadianceNotes.com</title>
+
+    <!-- Animate on scroll CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Fontawsome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="./css/cart.css" />
+
+    <!-- Tab Icon -->
+    <link rel="shortcut icon" type="image/png" href="./img/-" />
+  </head>
+
+  <body>
+    <div
+      class="alert alert-dismissible fade show m-0 text-center"
+      role="alert"
+      style="background: #f2f2f2;"
+    >
+      <strong>50% OFF!</strong> Exclusive sales only for today.
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Radiance. </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="mr-auto"></div>
+
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active mx-2" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link mx-2" href="#">Library</a>
+            <div class="btn btn-light btn-oval ml-2 px-3" style="width: 90px;">
+              <i class="fas fa-shopping-cart" style="font-size: 0.8rem;"></i>
+              Cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content my-4">
+      <div class="container">
+        <h4>Shopping Cart</h4>
+        <hr />
+        <div class="row mt-5">
+          <div class="col-md-8">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Quantity</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Sub Total</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center">
+                    <img src="./img/muscisheet_2.png" width="150" alt="" />
+                  </td>
+                  <td>O' Lord</td>
+                  <td>5</td>
+                  <td>$ 10.99</td>
+                  <td>$ 60</td>
+                  <td>Remove X</td>
+                </tr>
+                <tr>
+                  <td class="text-center">
+                    <img src="./img/muscisheet_2.png" width="150" alt="" />
+                  </td>
+                  <td>O' Lord</td>
+                  <td>5</td>
+                  <td>$ 10.99</td>
+                  <td>$ 60</td>
+                  <td>Remove X</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr />
+          </div>
+          <div class="col-md-4">
+            <h5 class="font-weight-bold">
+              Grand Total
+              <span class="float-right">$ 200</span>
+            </h5>
+            <p class="mt-4">Orders will be processed in USD</p>
+            <button
+              type="button"
+              class="btn btn-primary btn-lg btn-block text-uppercase"
+            >
+              Check Out
+            </button>
+            <button type="button" class="btn btn-warning btn-lg btn-block mt-3">
+              PayPal
+            </button>
+
+            <div class="text-center mt-4">
+              <a href="" class="text-uppercase">Continue Shopping</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-letter">
+      <div class="container-fluid bg-light2 py-4">
+        <div class="container text-center">
+          <h4>Subscribe</h4>
+          <p>Sign up to get the latest on sales, new releases and more …</p>
+          <form>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control mx-auto d-inline"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                style="width: 300px;"
+                placeholder="Enter your email address.."
+              />
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small> -->
+              <button
+                class="btn d-inline text-white"
+                style="background-color: #6c63ff;"
+              >
+                SIGN UP
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer text-white py-4" style="background-color: #1b1f23;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h1 style="overflow-y: hidden;">Radiance.</h1>
+            <!-- <img src="./img/playlist.png" alt="Brand" width="20"> -->
+          </div>
+          <div class="col-md-3">
+            <div class="text-uppercase font-weight-bold">About</div>
+            <hr class="bg-light" />
+            <p>Track your order</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="col-md-3">
+            <div class="text-uppercase font-weight-bold">Store Info</div>
+            <hr class="bg-light" />
+            <p>Return Policy</p>
+            <p>Privacy Policy</p>
+            <p>Shipping Policy</p>
+            <p>Terms of Service</p>
+          </div>
+          <div class="col-md-3">
+            <div class="text-uppercase font-weight-bold">About</div>
+            <hr class="bg-light" />
+            <p>
+              support@radiance.com 1900 Garden Springs Dr Lexington, KY 40504
+              SINGAPORE
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <hr class="bg-light"> -->
+      <div class="text-left">
+        <p style="padding-left: 6vw;">@2020 Radiance</p>
+      </div>
+    </div>
+
+    <!-- Animate on scroll Script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Type.js-->
+    <script src="./js/typed.js"></script>
+
+    <!-- Custom JS-->
+    <script src="./js/index.js"></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
