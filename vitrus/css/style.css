@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.font-manrope {
+    font-family: 'Manrope', sans-serif;
+}
+
+.full {
+    height: 100%;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    overflow-y: hidden;
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
+}
+
+.intro-content {
+    margin-top: 5.5rem;
+}
+
+.intro-content h1 {
+    padding-top: 1rem;
+    font-size: 3.8rem;
+    padding-left: 4.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.intro-content p,
+.d-flex {
+    padding-left: 4.5rem;
+}
+
+.border-rectangle {
+    border-radius: 0px !important;
+}
+
+.btn-grape {
+    background-color: #6C63FF;
+    color: white;
+}
+
+
+.practices h1 {
+    font-weight: 700;
+    /* color: #6C63FF; */
+}
+
+.practices h4 {
+    font-weight: 700;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
+
+/* RESPONSIVE QUERY*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 658px) {
+    .intro-content h1 {
+        font-size: 1.91rem;
+        padding-left: 3.2rem !important;
+        padding-right: 3.2rem !important;
+    }
+
+    .intro-content p {
+        font-size: 1.2rem !important;
+        padding-left: 3.2rem !important;
+        padding-right: 3.2rem !important;
+    }
+
+    #news-letter {
+        font-size: 1rem !important;
+        padding-left: 3.2rem !important;
+        padding-right: 3.2rem !important;
+    }
+
+    .intro-content .d-flex {
+        padding-left: 3.2rem !important;
+        padding-right: 3.2rem !important;
+    }
+
+    .intro-content {
+        margin-top: 0.5rem;
+    }
+
+    .content-title {
+        font-size: 1.7rem !important;
+    }
+
+    .card {
+        margin-top: 1rem;
+
+    }
+
+}
