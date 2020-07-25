@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tjandra's Portfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Fontawsome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+
+    <div class="introduction bg-black full-intro">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <a class="navbar-brand" href="#">Tjandra Putra</a>
+                <div id="brand-tag">Portfolio</div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link px-4" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="#project">Project</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link px-4" href="#profile">Profile</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="https://github.com/Tjandra-Putra" target="_blank">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4" href="https://www.linkedin.com/in/tjandra-putra-49472917a/"
+                                target="_blank">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-4 btn" href="mailto:tjandraputra2000z@gmail.com" id="email">Email</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="self-introduction text-white">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 id="intro-left">
+                            <span class="text-apocad">You simply</span>
+                            <br>
+                            state your needs,
+                            <br>
+                            I'm ready.
+                        </h2>
+
+                        <div class="intro-body mx-auto">
+                            <p class="text-grey">Outgoing developer with a Diploma in Business Informatics. Seeking to
+                                leverage my
+                                technical expertise to grow as a <span
+                                    class="text-apocad font-weight-bold">developer</span>.</p>
+                        </div>
+
+                        <a href="./img/Resume V2.pdf" target="_blank"
+                            class="btn btn-outline-light px-4 btn-round text-gold btn-gold">Resume</a>
+
+                        <div class="mx-auto pt-5">
+                            <a href="#project" class="text-white"><i class="fas fa-chevron-down fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="projects full bg-black " id="project">
+        <div class="container p-3 text-white">
+            <div class="sub-title text-gold">Projects</div>
+
+            <div class="row mt-3 project-card">
+                <!-- background-color:#e2e3e5; -->
+                <div class="col-md-6 p-3" style="padding-top:2.2em !important;">
+                    <div class="frame bg-dark" style="border-radius: 4px 4px 0 0;">
+                        <span class="text-danger pl-1">•</span>
+                        <span class="text-warning pl-1">•</span>
+                        <span class="text-success pl-1">•</span>
+                    </div>
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src=" ./img/RPA_Applicants Tracking System.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="col-md-6 p-4">
+                    <h3 style="font-size:20px!important;font-weight: 600;">
+                        Text Classification
+                        <span class="badge-danger badge badge-pill float-right">Final Year Project</span>
+                        <hr>
+                    </h3>
+                    <p class="text-justify text-grey">
+                        This program makes use Robotic Process Automation (RPA) and Machine Learning using Python.
+                        The objective is to automatically classify and sort email data in outlook mail into its own
+                        folder. You can view the system flow <a href="" data-toggle="modal" class="text-apocad"
+                            data-target=".bd-example-modal-lg">here</a>.
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                            aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">System Flow</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="./img/workflow_textclassification.PNG" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                    <p class="mb-1">
+                        <i class=" far fa-check-circle text-success pr-2"></i>
+                        Automated email folder sorting
+                    </p>
+
+                    <p class="mb-1">
+                        <i class="far fa-check-circle text-success pr-2""></i>
+            Automated email extraction
+        </p>
+            <p class=" mb-1">
+                            <i class="far fa-check-circle text-success pr-2""></i>
+                Optimized execution timing
+            </p>
+            <p class=" mb-1">
+                                <i class="far fa-check-circle text-success pr-2""></i>
+                An accuracy of 85%
+            </p>
+                        <p class=" text-grey float-left" style="font-size: 15px;margin-top: 2rem;">Developed with
+                                    <a class="a-link text-apocad " href="https://www.uipath.com/product/studio"
+                                        target="_blank"> Ui
+                                        Path Studio</a><span class="text-apocad">,</span> <a class="a-link text-apocad "
+                                        href="https://www.python.org/" target="_blank"> Python</a>
+                                    <p class="default-p float-right roboto-font text-gold" style="margin-top: 2rem;">
+                                        Private</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4 project-card">
+                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
+                    <div class="frame  bg-dark pl-1" style="border-radius: 4px 4px 0 0;">
+                        <span class="text-danger pl-1">•</span>
+                        <span class="text-warning pl-1">•</span>
+                        <span class="text-success pl-1">•</span>
+                    </div>
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src=" ./img/RPA_Applicants Tracking System.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="col-md-6 p-4">
+                    <h3 style="font-size:20px!important;font-weight: 600;">
+                        Candidate Sourcing
+                        <span class="badge-primary badge badge-pill float-right">RPA</span>
+                        <hr>
+                    </h3>
+                    <p class="text-justify text-grey">
+                        This workflow automates and filters applicants' resume(.PDF) or any other documents(.PDF)
+                        based on "Key Words"
+                        from a specific folder and move successfully matched applicants' file over to a new folder.
+                    </p>
+                    <p class="mb-1"> <i class=" far fa-check-circle text-success pr-2""></i>
+                            Filter seemlessly</p>
+
+                        <p class=" mb-1"> <i class="far fa-check-circle text-success pr-2""></i>
+                            Full control of directory paths</p>
+
+                        <p class=" mb-0">
+                                <i class="far fa-check-circle text-success pr-2""></i>
+                            Automated email
+                        </p>
+
+                        <p class=" text-grey float-left" style="font-size: 15px;margin-top: 6rem;">Developed with
+                                    <a class="a-link text-apocad " href="https://www.uipath.com/product/studio"
+                                        target="_blank"> Ui
+                                        Path Studio</a>
+                                    <p class="default-p float-right roboto-font text-gold" style="margin-top: 6rem;">
+                                        Private</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4 project-card">
+                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
+                    <div class="frame  bg-dark pl-1" style="border-radius: 4px 4px 0 0;">
+                        <span class="text-danger pl-1">•</span>
+                        <span class="text-warning pl-1">•</span>
+                        <span class="text-success pl-1">•</span>
+                    </div>
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="./img/Google Automation.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="col-md-6 p-4">
+                    <h3 style="font-size:20px!important;font-weight: 600;">
+                        Google Form Automation
+                        <span class="badge-primary badge badge-pill float-right">RPA</span>
+                        <hr>
+                    </h3>
+                    <p class="text-justify text-grey">
+                        This workflow automates and fill in google forms base on excel inputs. It enables enterprise to
+                        be effective and efficient by reducing human error and eliminating repetitive actions/tasks.
+                    </p>
+                    <p class="mb-1"> <i class=" far fa-check-circle text-success pr-2""></i>
+                        Excel integration</p>
+
+                        <p class=" mb-1"> <i class="far fa-check-circle text-success pr-2""></i>
+                            Effective & efficient</p>
+
+                        <p class=" mb-0">
+                                <i class="far fa-check-circle text-success pr-2""></i>
+                                Easy to use
+                        </p>
+
+                        <p class=" text-grey float-left" style="font-size: 15px;margin-top: 6rem;">Developed with
+                                    <a class="a-link text-apocad " href="https://www.uipath.com/product/studio"
+                                        target="_blank"> Ui
+                                        Path Studio</a>
+                                    <p class="default-p float-right roboto-font text-gold" style="margin-top: 6rem;">
+                                        Private</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-4 project-card">
+                <div class="col-md-6 p-3" style=" padding-top:2.2em !important;">
+                    <div class="frame  bg-dark pl-1" style="border-radius: 4px 4px 0 0;">
+                        <span class="text-danger pl-1">•</span>
+                        <span class="text-warning pl-1">•</span>
+                        <span class="text-success pl-1">•</span>
+                    </div>
+                    <video controls class="embed-responsive embed-responsive-16by9 ">
+                        <source src="./img/RPA_Email_Automation.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+
+                <div class="col-md-6 p-4">
+                    <h3 style="font-size:20px!important;font-weight: 600;">
+                        Email Automation
+                        <span class="badge-primary badge badge-pill float-right">RPA</span>
+                        <hr>
+                    </h3>
+                    <p class="text-justify text-grey">
+                        This work flow sends multiple SMTP emails at once based on excel input. User can choose
+                        different email accounts to send emails.
+                    </p>
+                    <p class="mb-1"> <i class=" far fa-check-circle text-success pr-2""></i>
+                        Excel integration</p>
+
+                        <p class=" mb-1"> <i class="far fa-check-circle text-success pr-2""></i>
+                            Automated email
+                        </p>
+
+                        <p class=" mb-0">
+                                <i class="far fa-check-circle text-success pr-2""></i>
+                                Custom email
+                            </p>
+
+                        <p class=" text-grey float-left" style="font-size: 15px;margin-top: 6rem;">Developed with
+                                    <a class="a-link text-apocad " href="https://www.uipath.com/product/studio"
+                                        target="_blank"> Ui
+                                        Path Studio</a>
+                                    <p class="default-p float-right roboto-font text-gold" style="margin-top: 6rem;">
+                                        Private</p>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="web-design py-3 text-white bg-black">
+        <div class="container">
+            <div class="sub-title text-gold text-center pb-3">Web Design</div>
+
+            <div class="container p-4"
+                style="border-radius: 25px;  box-shadow: 0 0 30px 0 rgba(0, 0, 0, .1);background-color: #262626;">
+                <div class=" row">
+                    <div class="col-md-6 pt-3">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-white" style="font-weight: 600;">BloodPlus</p>
+                            <p>May 5, 2020</p>
+                        </div>
+                        <div class="container-card shadow-sm" style="border-radius: 10px;border:1px solid #040405">
+                            <div class="img-overlay">
+                                <a href="https://bloodplus.netlify.app/" target="_blank">
+                                    <img src="./img/bloodplus.PNG" alt="" class="img-fluid"
+                                        style="border-radius: 10px;">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="default-p text-grey pt-2 text-justify">
+                            The mission of this website is to
+                            raise awareness that individuals can save lives and improve the health of others by
+                            donating blood. </p>
+
+                        <!-- <hr class="hr-custom"> -->
+
+                        <p class="text-grey default-p ">Developed with <a class="a-link text-apocad"
+                                href="https://materializecss.com/">Materialize</a></p>
+
+                        <span class=" badge badge-dark badge-pill ">Web Design</span>
+                        <span class=" badge badge-dark badge-pill ">Blood Donation</span>
+                        <span class=" badge badge-dark badge-pill mb-2 ">Materialize CSS</span>
+
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <div class="d-flex justify-content-between">
+                            <p style="font-weight: 600;">Radiance</p>
+                            <p>May 17, 2020</p>
+                        </div>
+                        <div class="container-card shadow-sm" style="border-radius: 10px;border:1px solid #040405">
+                            <div class="img-overlay">
+                                <a href="https://radiance.netlify.app/" target="_blank">
+                                    <img src="./img/radiance.PNG" alt="" class="img-fluid" style="border-radius: 10px;">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="default-p text-grey pt-2 text-justify">
+                            A simple and minimalistic landing page of a music store website. <br>
+                            I do not own any of the music sheets, credits go to the respective owners.
+                        </p>
+
+                        <p class="text-grey default-p ">Developed with <a class="a-link text-apocad"
+                                href="https://getbootstrap.com/">Bootstrap</a></p>
+
+                        <span class=" badge badge-dark badge-pill ">Web Design</span>
+                        <span class=" badge badge-dark badge-pill ">E-commerce</span>
+                        <span class=" badge badge-dark badge-pill mb-2 ">Bootstrap</span>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-6 pt-3">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-white" style="font-weight: 600;">Vitrus</p>
+                            <p>June 13, 2020</p>
+                        </div>
+                        <div class="container-card shadow-sm" style="border-radius: 10px;border:1px solid #040405">
+                            <div class="img-overlay">
+                                <a href="https://vitrus.netlify.app/" target="_blank">
+                                    <img src="./img/vitrus_1.png" alt="" class="img-fluid" style="border-radius: 10px;">
+                                </a>
+
+                            </div>
+                        </div>
+                        <p class="default-p text-grey pt-2 text-justify">
+                            The objective of this website is to
+                            raise awareness about corona virus and how educate how people can play apart in ensuring
+                            safety and social responsibility in this difficult time. </p>
+
+                        <p class="text-grey default-p ">Developed with <a class="a-link text-apocad"
+                                href="https://getbootstrap.com/">Bootstrap</a></p>
+
+                        <span class=" badge badge-dark badge-pill ">Web Design</span>
+                        <span class=" badge badge-dark badge-pill ">covid19</span>
+                        <span class=" badge badge-dark badge-pill mb-2 ">Bootstrap</span>
+
+                    </div>
+                    <div class="col-md-6 pt-3">
+                        <div class="d-flex justify-content-between">
+                            <p class="text-white" style="font-weight: 600;">Coming Soon</p>
+                            <p>XXX X, 202X</p>
+                        </div>
+                        <div class="container-card shadow-sm" style="border-radius: 10px;border:1px solid #040405">
+                            <div class="img-overlay">
+
+                                <img src="./img/undraw_under_construction_46pa.png" width="490" alt="" class="img-fluid"
+                                    style="border-radius: 10px;">
+
+                            </div>
+                        </div>
+                        <p class="default-p text-grey pt-2 text-justify">
+                            COMING SOON . . . </p>
+
+                    </div>
+                </div>
+                <div class="row text-center mt-4">
+                    <div class="col-md-12 pb-3">
+                        <a href=" https://github.com/Tjandra-Putra" target="_blank" style="font-size:19px;"
+                            class="text-apocad roboto-font">View All
+                            Projects →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-black">
+            <div class="container py-1 text-white">
+
+                <div class="row roboto-font">
+
+                    <div class=" col-md-12">
+
+                        <hr style="border-bottom: 3px solid #262626;">
+                        <p class="text-center  pt-3" style="font: weight 100 !important;">Copyright @ 2020 <a
+                                href="https://github.com/Tjandra-Putra" class="text-white font-weight-bold"
+                                onclick="return confirm('Do you want to leave open github?')">Tjandra</a>.
+                            All
+                            Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
